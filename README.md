@@ -28,6 +28,7 @@ Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 5. Yine ana dizindeki "mongodb_doc_gen.py" python scriptini kullanarak mongodb'de "cdc" isimli 
 collection'a rastgele bir döküman ekleyecektir.
    ```sh
+   pip3 install -r requirements.txt
    python3 mongodb_doc_gen.py
    ```
 
