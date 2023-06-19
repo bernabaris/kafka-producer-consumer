@@ -8,7 +8,7 @@ Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 
 1. Projeyi klonlayın: 
    ```sh
-   git clone https://github.com/bernabaris/kafka-mongodb.git
+   git clone https://github.com/bernabaris/kafka-producer-consumer.git
    ```
 2. Ana dizinde maven build alın:
    ```sh
