@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: producer
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/kafkacdc
+        database: kafkacdc
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    com:
+      github:
+        bernabaris: INFO
+
+mongodb:
+  collection: cdc
+
+kafka:
+    bootstrapAddress: 127.0.0.1:9092
+    groupId: None
+    topic: cdc

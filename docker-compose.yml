@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  producer:
+    image: producer:1.0-SNAPSHOT
+    network_mode: host
+  consumer:
+    image: consumer:1.0-SNAPSHOT
+    network_mode: host
