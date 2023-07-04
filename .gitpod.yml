@@ -5,7 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - before: sdk default java 17.0.7.fx-zulu
+  - before: sdk install java 17.07.fx-zulu && sdk default java 17.0.7.fx-zulu
   - init: mvn clean install -DskipTests=false && pip install -r requirements.txt
 
 
