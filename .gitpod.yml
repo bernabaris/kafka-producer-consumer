@@ -20,6 +20,10 @@ tasks:
         docker-compose up -d
         cd ../..
         python3 mongodb_doc_gen.py
+        cd producer/src/main/java/com/github/bernabaris/
+        javac ProducerApp.java
+        cd ~/workspace/kafka-producer-consumer/consumer/src/main/java/com/github/bernabaris
+        javac ConsumerApp.java
       )
     
 
